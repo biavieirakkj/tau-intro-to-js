@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const favoriteCookies = [ 
+            "gotas de chocolate", 
+            "framboesa com limão",
+            "nesquik com chocolate branco",
+            "biscoito de manteiga"
+        ];
+
+        favoriteCookies.push("cookie de oreo");
+        let cookie = favoriteCookies.pop();
+
+        console.log(favoriteCookies);
+        console.log("to tao triste que fui embora - " + cookie);
+
+        let fav = 3;
+        console.log(favoriteCookies[fav]);
+        console.log(favoriteCookies.length);
+        console.log(favoriteCookies[favoriteCookies.length-2]);
+    </script>
+</body>
+</html>
